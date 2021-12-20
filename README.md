@@ -35,7 +35,7 @@ python main.py
 ```
 
 ## Dataset
-###junyi
+### junyi
 
 log_data.json:
 - Student exercising records.

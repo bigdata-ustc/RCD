@@ -20,6 +20,11 @@ The instruction of commands.
 
 * **Note**: Concept dependency local map has been provided (see the instruction of dataset). The construction of concept dependency relation see subsection 5.1.2 in the paper. If you need, we would release this code.
 
+Go to the code directory:
+```
+cd RCD
+```
+
 Build exercise-concept correlation local map:
 ```
 python build_k_e_graph.py
@@ -58,4 +63,3 @@ graph/K_Undirected.txt
 **Note**: Exercise-concept correlation local map and student-exercise interaction local map can be constructed by running build_k_e_graph.py and build_u_e_graph.py respectively.
 
 Last Update Date: December 20, 2021
-

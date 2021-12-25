@@ -39,7 +39,7 @@ Train and test RCD model:
 python main.py
 ```
 
-**Note**: In subsection 4.3 (i.e., Extendable Diagnosis Layer) of the paper, Q_{e} in original MIRT represents exercise discrimination. We use a concept-related vector instead of discrimination as an implementation in the paper. RCD can be extended to the many forms of diagnosis.
+**Note**: In subsection 4.3 (i.e., Extendable Diagnosis Layer) of the paper, Q_{e} in original MIRT represents exercise discrimination. We use a concept-related vector instead of discrimination as an implementation in the paper. RCD can be extended to the many forms of cognitive diagnosis.
 
 ## Dataset
 ### junyi

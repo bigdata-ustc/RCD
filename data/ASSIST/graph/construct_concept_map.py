@@ -32,6 +32,7 @@ def constructDependencyMatrix():
 
     s = 0
     c = 0
+    # Calculate transition matrix
     knowledgeDirected = np.zeros([knowledge_n, knowledge_n])
     for i in range(knowledge_n):
         for j in range(knowledge_n):
@@ -39,18 +40,14 @@ def constructDependencyMatrix():
                     knowledgeDirected[i][j] = float(knowledgeCorrect[i][j]) / edge_dic_deno[i]
                     s += knowledgeDirected[i][j]
                     c += 1
-
     o = np.zeros([knowledge_n, knowledge_n])
     min_c = 100000
     max_c = 0
-
     for i in range(knowledge_n):
         for j in range(knowledge_n):
             if knowledgeCorrect[i][j] > 0 and i != j:
                 min_c = min(min_c, knowledgeDirected[i][j])
                 max_c = max(max_c, knowledgeDirected[i][j])
-    print ('min_c', str(min_c))
-    print ('max_c', str(max_c))
     s_o = 0
     l_o = 0
     for i in range(knowledge_n):
@@ -63,6 +60,7 @@ def constructDependencyMatrix():
     # avg = 0.02
     avg *= avg
     avg *= avg
+    # avg is threshold
     graph = ''
     edge = np.zeros([knowledge_n, knowledge_n])
     for i in range(knowledge_n):
@@ -74,6 +72,7 @@ def constructDependencyMatrix():
     co = 0
     tr = 0
     all = 0
+    # Calculate concept dependency relation
     for i in range(knowledge_n):
         for j in range(knowledge_n):
             if (i,j) not in e_l:

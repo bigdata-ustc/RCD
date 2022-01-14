@@ -16,9 +16,9 @@ We use Torch and DGL as the backend.
 - DGL version: '0.6.1'
 
 ## Example to run the codes.
-The instruction of commands.
+The instruction of commands and take Junyi dataset as an example (We will provide ASSIST dataset as soon as possible).
 
-* **Note**: Concept dependency local map has been provided (see the instruction of dataset). The construction of concept dependency relation see subsection 5.1.2 in the paper. If you need, we would release this code.
+[//]: # (* **Note**: Concept dependency local map has been provided &#40;see the instruction of dataset&#41;. The construction of concept dependency relation see subsection 5.1.2 in the paper. If you need, we would release this code.)
 
 Go to the code directory:
 ```
@@ -64,4 +64,6 @@ graph/K_Undirected.txt
 
 **Note**: Exercise-concept correlation local map and student-exercise interaction local map can be constructed by running build_k_e_graph.py and build_u_e_graph.py respectively.
 
-Last Update Date: December 20, 2021
+### ASSIST
+
+Last Update Date: January 14, 2022

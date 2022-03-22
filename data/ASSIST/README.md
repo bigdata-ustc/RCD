@@ -6,7 +6,9 @@ Build concept dependency map:
 
 ```
 python construct_concept_map.py
+python process_edge.py
 ```
+
 **Note**:
 
 * We construct concept dependency map via log_data_all.json.

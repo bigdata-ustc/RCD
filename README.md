@@ -49,10 +49,10 @@ log_data.json:
 - Source: https://github.com/bigdata-ustc/EduData
 
 train_set.json
-- Train file.
+- Data file for training.
 
 test_set.json
-- Test file.
+- Data file for testing.
 
 graph/K_Directed.txt
 - Prerequisite relation from concept dependency local map.
@@ -66,4 +66,4 @@ graph/K_Undirected.txt
 
 ### ASSIST
 
-Last Update Date: January 14, 2022
+Last Update Date: March 23, 2022

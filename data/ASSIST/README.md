@@ -2,6 +2,11 @@ ASSIST
 -
 ### Example to run the codes.
 
+Go to the graph directory:
+```
+cd ASSIST/graph
+```
+
 Build concept dependency map:
 
 ```

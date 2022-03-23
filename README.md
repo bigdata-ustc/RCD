@@ -22,8 +22,9 @@ The instruction of commands and take Junyi dataset as an example (We will provid
 
 Go to the code directory:
 ```
-cd RCD
+cd RCD/RCD
 ```
+Create two folders '/model' and '/result'.
 
 Build exercise-concept correlation local map:
 ```
@@ -41,7 +42,7 @@ python main.py
 
 **Note**: In subsection 4.3 (i.e., Extendable Diagnosis Layer) of the paper, Q_{e} in original MIRT represents exercise discrimination. We use a concept-related vector instead of discrimination as an implementation in the paper. RCD can be extended to the many forms of cognitive diagnosis.
 
-## Dataset
+## Dataset(RCD/data)
 ### junyi
 
 log_data.json:
@@ -65,5 +66,6 @@ graph/K_Undirected.txt
 **Note**: Exercise-concept correlation local map and student-exercise interaction local map can be constructed by running build_k_e_graph.py and build_u_e_graph.py respectively.
 
 ### ASSIST
+
 
 Last Update Date: March 23, 2022

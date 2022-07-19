@@ -15,7 +15,7 @@ We use Torch and DGL as the backend.
 - Torch version:  '1.7.1'
 - DGL version: '0.6.1'
 
-## Example to run the codes.
+## Example to run the codes
 The instruction of commands and take Junyi dataset as an example (We will provide ASSIST dataset as soon as possible).
 
 [//]: # (* **Note**: Concept dependency local map has been provided &#40;see the instruction of dataset&#41;. The construction of concept dependency relation see subsection 5.1.2 in the paper. If you need, we would release this code.)

@@ -6,7 +6,7 @@ Weibo Gao, Qi Liu*, Zhenya Huang, Yu Yin, Haoyang Bi, Mu Chun Wang, Jianhui Ma, 
 
 Please cite our SIGIR'21 paper if you use our codes. Thanks!
 
-Author: Weibo Gao (http://home.ustc.edu.cn/~weibogao/)
+Author: Weibo Gao (https://scholar.google.com/citations?user=k19RS74AAAAJ&hl=zh-CN)
 
 Email: weibogao@mail.ustc.edu.cn
 

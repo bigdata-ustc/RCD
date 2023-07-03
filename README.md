@@ -6,6 +6,16 @@ Weibo Gao, Qi Liu*, Zhenya Huang, Yu Yin, Haoyang Bi, Mu Chun Wang, Jianhui Ma, 
 
 Please cite our SIGIR'21 paper if you use our codes. Thanks!
 
+```
+@inproceedings{gao2021rcd,
+  title={Rcd: Relation map driven cognitive diagnosis for intelligent education systems},
+  author={Gao, Weibo and Liu, Qi and Huang, Zhenya and Yin, Yu and Bi, Haoyang and Wang, Mu-Chun and Ma, Jianhui and Wang, Shijin and Su, Yu},
+  booktitle={Proceedings of the 44th International ACM SIGIR Conference on Research and Development in Information Retrieval},
+  pages={501--510},
+  year={2021}
+}
+```
+
 Author: Weibo Gao (https://scholar.google.com/citations?user=k19RS74AAAAJ&hl=zh-CN)
 
 Email: weibogao@mail.ustc.edu.cn

@@ -1,10 +1,8 @@
 # RCD: Relation Map Driven Cognitive Diagnosis for Intelligent Education Systems
 
-This is our implementation for the paper:
+This is our implementation for the paper of **RCD: Relation Map Driven Cognitive Diagnosis for Intelligent Education Systems** published on `SIGIR'2021`. [[PDF](https://dl.acm.org/doi/abs/10.1145/3404835.3462932)]
 
-Weibo Gao, Qi Liu*, Zhenya Huang, Yu Yin, Haoyang Bi, Mu Chun Wang, Jianhui Ma, Shijin Wang, and Yu Su. RCD: Relation Map Driven Cognitive Diagnosis for Intelligent Education Systems[C]//Proceedings of the 44th International ACM SIGIR Conference on Research and Development in Information Retrieval. 2021: 501-510.
-
-Please cite our SIGIR'21 paper if you use our codes. Thanks!
+Please cite this paper if you use our codes. Thanks!
 
 ```
 @inproceedings{gao2021rcd,
@@ -16,7 +14,7 @@ Please cite our SIGIR'21 paper if you use our codes. Thanks!
 }
 ```
 
-Author: Weibo Gao (https://scholar.google.com/citations?user=k19RS74AAAAJ&hl=zh-CN)
+Author: [Weibo Gao](https://scholar.google.com/citations?user=k19RS74AAAAJ&hl=zh-CN)
 
 Email: weibogao@mail.ustc.edu.cn
 

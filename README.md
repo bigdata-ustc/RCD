@@ -65,7 +65,7 @@ test_set.json
 
 graph/K_Directed.txt
 - Prerequisite relation from concept dependency local map.
-- Each line is a prerequisite relation from concept dependency local map: precursor_concept_ID\t succeed_concept_ID.
+- Each line is a prerequisite relation from the concept dependency local map: precursor_concept_ID\t succeed_concept_ID.
 
 graph/K_Undirected.txt
 - Similarity relation from concept dependency local map.
@@ -76,4 +76,4 @@ graph/K_Undirected.txt
 ### ASSIST
 
 
-Last Update Date: March 23, 2022
+Last Update Date: July 20, 2023

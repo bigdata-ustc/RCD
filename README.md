@@ -75,5 +75,7 @@ graph/K_Undirected.txt
 
 ### ASSIST
 
+## Related Works
+**Leveraging Transferable Knowledge Concept Graph Embedding for Cold-Start Cognitive Diagnosis (SIGIR'2023).** [[PDF](https://dl.acm.org/doi/10.1145/3539618.3591774)][[Code](https://github.com/WebGao/TechCD)]
 
-Last Update Date: July 20, 2023
+### Last Update Date: July 20, 2023

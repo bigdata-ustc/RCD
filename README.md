@@ -14,7 +14,7 @@ Please cite this paper if you use our codes. Thanks!
 }
 ```
 
-Author: [Weibo Gao](https://scholar.google.com/citations?user=k19RS74AAAAJ&hl=zh-CN)
+Author: [Weibo Gao](https://scholar.google.com/citations?user=k19RS74AAAAJ&hl=zh-CN), [Qi Liu](http://staff.ustc.edu.cn/~qiliuql) et al.
 
 Email: weibogao@mail.ustc.edu.cn
 

@@ -1,6 +1,6 @@
 # RCD: Relation Map Driven Cognitive Diagnosis for Intelligent Education Systems
 
-This is our implementation for the paper of **RCD: Relation Map Driven Cognitive Diagnosis for Intelligent Education Systems** published on `SIGIR'2021`. [[PDF](https://dl.acm.org/doi/abs/10.1145/3404835.3462932)]
+This is our implementation for the paper of **RCD: Relation Map Driven Cognitive Diagnosis for Intelligent Education Systems** published on `SIGIR'2021`. [[Paper](https://dl.acm.org/doi/abs/10.1145/3404835.3462932)]
 
 Please cite this paper if you use our codes. Thanks!
 
@@ -76,6 +76,6 @@ graph/K_Undirected.txt
 ### ASSIST
 
 ## Related Works
-**Leveraging Transferable Knowledge Concept Graph Embedding for Cold-Start Cognitive Diagnosis (SIGIR'2023).** [[PDF](https://dl.acm.org/doi/10.1145/3539618.3591774)][[Code](https://github.com/WebGao/TechCD)]
+**Leveraging Transferable Knowledge Concept Graph Embedding for Cold-Start Cognitive Diagnosis (SIGIR'2023).** [[Paper](https://dl.acm.org/doi/10.1145/3539618.3591774)][[Code](https://github.com/WebGao/TechCD)]
 
 ### Last Update Date: July 20, 2023

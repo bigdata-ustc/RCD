@@ -1,6 +1,6 @@
 # RCD: Relation Map Driven Cognitive Diagnosis for Intelligent Education Systems
 
-This is our implementation for the paper of **RCD: Relation Map Driven Cognitive Diagnosis for Intelligent Education Systems** published on `SIGIR'2021`. [[Paper](https://dl.acm.org/doi/abs/10.1145/3404835.3462932)]
+This is our implementation for the paper of **RCD: Relation Map Driven Cognitive Diagnosis for Intelligent Education Systems** published on `SIGIR'2021`. [[Paper](https://dl.acm.org/doi/abs/10.1145/3404835.3462932)][[Video](https://dl.acm.org/action/downloadSupplement?doi=10.1145%2F3404835.3462932&file=RCD.mp4)]
 
 Please cite this paper if you use our codes. Thanks!
 

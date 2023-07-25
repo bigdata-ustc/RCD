@@ -2,18 +2,6 @@
 
 This is our implementation for the paper of **RCD: Relation Map Driven Cognitive Diagnosis for Intelligent Education Systems** published on `SIGIR'2021`. [[Paper](https://dl.acm.org/doi/abs/10.1145/3404835.3462932)][[Video](https://dl.acm.org/action/downloadSupplement?doi=10.1145%2F3404835.3462932&file=RCD.mp4)]
 
-Please cite this paper if you use our codes. Thanks!
-
-```
-@inproceedings{gao2021rcd,
-  title={RCD: Relation map driven cognitive diagnosis for intelligent education systems},
-  author={Gao, Weibo and Liu, Qi and Huang, Zhenya and Yin, Yu and Bi, Haoyang and Wang, Mu-Chun and Ma, Jianhui and Wang, Shijin and Su, Yu},
-  booktitle={Proceedings of the 44th international ACM SIGIR conference on research and development in information retrieval},
-  pages={501--510},
-  year={2021}
-}
-```
-
 Author: [Weibo Gao](https://scholar.google.com/citations?user=k19RS74AAAAJ&hl=zh-CN), [Qi Liu](http://staff.ustc.edu.cn/~qiliuql) et al.
 
 Email: weibogao@mail.ustc.edu.cn
@@ -78,5 +66,17 @@ graph/K_Undirected.txt
 ## Related Works
 **Leveraging Transferable Knowledge Concept Graph Embedding for Cold-Start Cognitive Diagnosis (SIGIR'2023).** [[Paper](https://dl.acm.org/doi/10.1145/3539618.3591774)][[Code](https://github.com/WebGao/TechCD)][[Video](https://dl.acm.org/action/downloadSupplement?doi=10.1145%2F3539618.3591774&file=SIGIR23-fp1870.mp4)]
 
+## BibTex
+Please cite this paper if you use our codes. Thanks!
+
+```
+@inproceedings{gao2021rcd,
+  title={RCD: Relation map driven cognitive diagnosis for intelligent education systems},
+  author={Gao, Weibo and Liu, Qi and Huang, Zhenya and Yin, Yu and Bi, Haoyang and Wang, Mu-Chun and Ma, Jianhui and Wang, Shijin and Su, Yu},
+  booktitle={Proceedings of the 44th international ACM SIGIR conference on research and development in information retrieval},
+  pages={501--510},
+  year={2021}
+}
+```
 
 ### Last Update Date: July 23, 2023

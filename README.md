@@ -67,7 +67,7 @@ log_data.json:
 - Student exercising records.
 
 ## Related Works
-**Leveraging Transferable Knowledge Concept Graph Embedding for Cold-Start Cognitive Diagnosis (SIGIR'2023).** [[Paper](https://dl.acm.org/doi/10.1145/3539618.3591774)][[Code](https://github.com/WebGao/TechCD)][[Presentation Video](https://dl.acm.org/action/downloadSupplement?doi=10.1145%2F3539618.3591774&file=SIGIR23-fp1870.mp4)]
+**Leveraging Transferable Knowledge Concept Graph Embedding for Cold-Start Cognitive Diagnosis (SIGIR'2023).** [[Paper](https://dl.acm.org/doi/10.1145/3539618.3591774)][[Code](https://github.com/bigdata-ustc/TechCD)][[Presentation Video](https://dl.acm.org/action/downloadSupplement?doi=10.1145%2F3539618.3591774&file=SIGIR23-fp1870.mp4)]
 
 ## BibTex
 Please cite this paper if you use our codes. Thanks!

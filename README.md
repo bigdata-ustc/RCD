@@ -1,73 +1,56 @@
 # RCD: Relation Map Driven Cognitive Diagnosis for Intelligent Education Systems
 
-This is our implementation for the paper of **RCD: Relation Map Driven Cognitive Diagnosis for Intelligent Education Systems** published on `SIGIR'2021`. [[Paper](https://dl.acm.org/doi/abs/10.1145/3404835.3462932)][[Presentation Video](https://dl.acm.org/action/downloadSupplement?doi=10.1145%2F3404835.3462932&file=RCD.mp4)]
+This repository contains the implementation for the paper titled **RCD: Relation Map Driven Cognitive Diagnosis for Intelligent Education Systems**, published at `SIGIR'2021`. [[Paper](https://dl.acm.org/doi/abs/10.1145/3404835.3462932)][[Presentation Video](https://dl.acm.org/action/downloadSupplement?doi=10.1145%2F3404835.3462932&file=RCD.mp4)]
 
-Author: [Weibo Gao](https://scholar.google.com/citations?user=k19RS74AAAAJ&hl=zh-CN), [Qi Liu](http://staff.ustc.edu.cn/~qiliuql) et al.
+Authors: [Weibo Gao](https://scholar.google.com/citations?user=k19RS74AAAAJ&hl=zh-CN), [Qi Liu](http://staff.ustc.edu.cn/~qiliuql) et al.
 
 Email: weibogao@mail.ustc.edu.cn
 
 ## Environment Settings
-We use Torch and DGL as the backend. 
-- Torch version:  '1.7.1'
+- Torch version: '1.7.1'
 - DGL version: '0.6.1'
 
-## Example to run the codes
-The instruction of commands and take Junyi dataset as an example (We will provide ASSIST dataset as soon as possible).
+## Example to Run the Codes
+To run the codes using the Junyi dataset:
+1. Navigate to the code directory:
+   ```
+   cd RCD/RCD
+   ```
+2. Create two folders '/model' and '/result':
+   ```
+   mkdir model result
+   ```
+3. Build exercise-concept correlation local map:
+   ```
+   python build_k_e_graph.py
+   ```
+4. Build student-exercise interaction local map:
+   ```
+   python build_u_e_graph.py
+   ```
+5. Train and test RCD model:
+   ```
+   python main.py
+   ```
 
-[//]: # (* **Note**: Concept dependency local map has been provided &#40;see the instruction of dataset&#41;. The construction of concept dependency relation see subsection 5.1.2 in the paper. If you need, we would release this code.)
+**Note**: Exercise-concept correlation local map and student-exercise interaction local map can be constructed by running `build_k_e_graph.py` and `build_u_e_graph.py` respectively.
 
-Go to the code directory:
-```
-cd RCD/RCD
-```
-Create two folders '/model' and '/result'.
+## Dataset
+### Junyi
+- `log_data.json`: Student exercising records. [Source](https://github.com/bigdata-ustc/EduData)
+- `train_set.json`: Data file for training.
+- `test_set.json`: Data file for testing.
+- `graph/K_Directed.txt`: Prerequisite relation from concept dependency local map, where each line is a prerequisite relation from the concept dependency local map: precursor_concept_ID\t succeed_concept_ID.
+- `graph/K_Undirected.txt`: Similarity relation from concept dependency local map, where each line is a similarity relation from concept dependency local map: concept_ID\t similar_concept_ID.
 
-Build exercise-concept correlation local map:
-```
-python build_k_e_graph.py
-```
-
-Build student-exercise interaction local map:
-```
-python build_u_e_graph.py
-```
-Train and test RCD model:
-```
-python main.py
-```
-
-**Note**: In subsection 4.3 (i.e., Extendable Diagnosis Layer) of the paper, Q_{e} in original MIRT represents exercise discrimination. We use a concept-related vector instead of discrimination as an implementation in the paper. RCD can be extended to the many forms of cognitive diagnosis.
-
-## Dataset(RCD/data)
-### junyi
-
-log_data.json:
-- Student exercising records.
-- Source: https://github.com/bigdata-ustc/EduData
-
-train_set.json
-- Data file for training.
-
-test_set.json
-- Data file for testing.
-
-graph/K_Directed.txt
-- Prerequisite relation from concept dependency local map.
-- Each line is a prerequisite relation from the concept dependency local map: precursor_concept_ID\t succeed_concept_ID.
-
-graph/K_Undirected.txt
-- Similarity relation from concept dependency local map.
-- Each line is a similarity relation from concept dependency local map: concept_ID\t similar_concept_ID.
-
-**Note**: Exercise-concept correlation local map and student-exercise interaction local map can be constructed by running build_k_e_graph.py and build_u_e_graph.py respectively.
+**Note**: Concept dependency local map construction details are provided in the paper. 
 
 ### ASSIST
-
-log_data.json:
-- Student exercising records.
+- `log_data.json`: Student exercising records.
 
 ## Related Works
-**Leveraging Transferable Knowledge Concept Graph Embedding for Cold-Start Cognitive Diagnosis (SIGIR'2023).** [[Paper](https://dl.acm.org/doi/10.1145/3539618.3591774)][[Code](https://github.com/bigdata-ustc/TechCD)][[Presentation Video](https://dl.acm.org/action/downloadSupplement?doi=10.1145%2F3539618.3591774&file=SIGIR23-fp1870.mp4)]
+- **Leveraging Transferable Knowledge Concept Graph Embedding for Cold-Start Cognitive Diagnosis (SIGIR'2023).** [[Paper](https://dl.acm.org/doi/10.1145/3539618.3591774)][[Code](https://github.com/bigdata-ustc/TechCD)][[Presentation Video](https://dl.acm.org/action/downloadSupplement?doi=10.1145%2F3539618.3591774&file=SIGIR23-fp1870.mp4)]
+- **Zero-1-to-3: Domain-level Zero-shot Cognitive Diagnosis via One Batch of Early-bird Students towards Three Diagnostic Objectives (AAAI'2024).** [[Paper](https://arxiv.org/abs/2312.13434)][[Code](https://github.com/bigdata-ustc/Zero-1-to-3)]
 
 ## BibTex
 Please cite this paper if you use our codes. Thanks!
@@ -82,4 +65,4 @@ Please cite this paper if you use our codes. Thanks!
 }
 ```
 
-### Last Update Date: August 29, 2023
+### Last Update Date: March 14, 2024

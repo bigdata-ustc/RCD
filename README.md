@@ -6,6 +6,10 @@ Authors: [Weibo Gao](https://scholar.google.com/citations?user=k19RS74AAAAJ&hl=z
 
 Email: weibogao@mail.ustc.edu.cn
 
+Announcements:
+--
+- ### 🔈RCD has been used in the 'Learning & Practice' business of the [HUAWEI Educational Center APP](https://appgallery.huawei.com/app/C101178177?sharePrepath=ag&locale=zh_CN&source=appshare&subsource=C101178177&shareTo=copylink&shareFrom=appmarket&shareIds=74fcdcc6737c459a87ca7140baba644a_8&callType=SHARE), since 2022. 
+
 ## Environment Settings
 - Torch version: '1.7.1'
 - DGL version: '0.6.1'

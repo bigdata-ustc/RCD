@@ -2,7 +2,7 @@
 
 This repository contains the implementation for the paper titled **RCD: Relation Map Driven Cognitive Diagnosis for Intelligent Education Systems**, published at `SIGIR'2021`. [[Paper](https://dl.acm.org/doi/abs/10.1145/3404835.3462932)][[Presentation Video](https://dl.acm.org/action/downloadSupplement?doi=10.1145%2F3404835.3462932&file=RCD.mp4)]
 
-Authors: [Weibo Gao](https://scholar.google.com/citations?user=k19RS74AAAAJ&hl=zh-CN), [Qi Liu](http://staff.ustc.edu.cn/~qiliuql) et al.
+Authors: [Weibo Gao](https://scholar.google.com/citations?user=k19RS74AAAAJ), [Qi Liu](http://staff.ustc.edu.cn/~qiliuql) et al.
 
 Email: weibogao@mail.ustc.edu.cn
 

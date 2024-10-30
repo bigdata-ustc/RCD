@@ -22,7 +22,8 @@ To run the codes using the Junyi dataset:
    ```
 2. Create two folders '/model' and '/result':
    ```
-   mkdir model result
+   mkdir model
+   mkdir result
    ```
 3. Build exercise-concept correlation local map:
    ```
